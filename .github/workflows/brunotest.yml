@@ -35,6 +35,7 @@ jobs:
           bru run --reporter-html ../CLICollection/Results.html
 
       # Upload the html test report as an artifact
+      # demo execution
       - name: Upload Test Report in artifact location
       # The below line will make this run, even if a previous step fails  
         if: always()
