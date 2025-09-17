@@ -41,7 +41,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Bruno HTML Test Result
-          path: ./HTMLReporter/Results.html
+          path: ./CLICollection/Results.html
 
      
      
